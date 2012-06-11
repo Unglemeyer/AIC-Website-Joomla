@@ -10,6 +10,52 @@
  * source software licenses. See COPYRIGHT.php for copyright notices and
  * details.
  */
+ 
+ 
+/*donate-box
+*****************/
+#donate-box {
+	width: 160px;
+	height: 75px;
+	background-image: url(../images/aic/donate-box.png);
+	float:right;
+	margin: 25px 40px 15px 15px;
+} /*look for html that has the header commands*/
+
+#donate-button {
+	width: inherit;
+	height: inherit;
+	margin-top: 22.5%;
+	text-align: center;
+}
+
+/*facebook section
+****************/
+
+#fb{
+float:right;
+width:290px;
+}
+
+#fb_title{
+width: 290px;
+height: 50px;
+background-color: #012b5d;
+padding-left: 10px;
+padding-top: 10px;
+margin-left: -10px;
+}
+
+
+#fb_content{
+margin-top: 5px;
+margin-right: 5px;
+width: 290px;
+background-color: #eaede6;
+}
+
+/**start of main**/
+
 body,html
 {
 	height:100%
@@ -95,7 +141,6 @@ h3
 {
 	font-size:18px;
 	color:#1F79EB;
-	font-family:'PT Sans Narrow', serif
 }
 
 h4
@@ -199,7 +244,7 @@ p
 .top .menu
 {
 	height:26px;
-	padding:6px 0
+	padding:6px 0;
 }
 
 .top .menu li
@@ -245,7 +290,6 @@ header
 	width:960px;
 	margin:0 auto;
 	position:relative;
-	padding:0px,20px,0px,20px;
 	
 }
 
@@ -259,7 +303,7 @@ header h1 a,header h1 a:link,header h1 a:visited,header h1 a:hover
 {
 	color:red;
 	color:#FFF;
-	font-family:Tahoma;
+	font-family:Century Gothic;
 	font-size:14px;
 	font-weight:700;
 	letter-spacing:1px;
@@ -381,7 +425,7 @@ header #search
 	background:url(../images/content_top.jpg) no-repeat scroll center top transparent;
 	margin:0 auto;
 	padding:10px;
-	width:940px
+	width:940px;
 }
 
 .content_b
@@ -396,9 +440,9 @@ header #search
 	background:url(../images/top_menu1.jpg) no-repeat scroll left top transparent;
 	height:33px;
 	line-height:45;
-	margin:0 auto 17px;
+	margin:0 auto 0px;
 	padding:12px 0;
-	width:960px
+	width:960px;
 }
 
 .maincol,.maincol_w_right,.maincol_w_left
@@ -1159,8 +1203,9 @@ footer p a
 	cursor:pointer;
 	display:block;
 	float:left;
-	font-family:Tahoma,Verdana,sans-serif;
-	font-size:11px;
+	/**font-family:Tahoma,Verdana,sans-serif;**/
+	font-family:"Century Gothic";
+	font-size:14px;
 	font-weight:700;
 	height:31px;
 	line-height:31px;
