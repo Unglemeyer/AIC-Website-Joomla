@@ -286,7 +286,7 @@ p
 header
 {
 	background:url(../images/aic/header.png) #ffffff no-repeat scroll center top;
-	height:120px;
+	height:140px;
 	width:960px;
 	margin:0 auto;
 	position:relative;
@@ -443,6 +443,7 @@ header #search
 	margin:0 auto 0px;
 	padding:12px 0;
 	width:960px;
+
 }
 
 .maincol,.maincol_w_right,.maincol_w_left
@@ -1145,35 +1146,35 @@ footer p a
 #sgmenu ul.menu
 {
 	float:right;
-	padding:0 10px
+	padding:0 10px;
 }
 
 #sgmenu ul li
 {
 	float:left;
-	position:relative
+	position:relative;
 }
 
 #sgmenu ul li a
 {
 	display:block;
-	white-space:nowrap
+	white-space:nowrap;
 }
 
 #sgmenu ul li ul
 {
 	position:absolute;
-	visibility:hidden
+	visibility:hidden;
 }
 
 #sgmenu ul li ul li
 {
-	float:none
+	float:none;
 }
 
 #sgmenu ul li ul li a
 {
-	width:auto
+	width:auto;
 }
 
 #sgmenu ul li ul
@@ -1200,31 +1201,32 @@ footer p a
 
 #sgmenu ul.menu li a,#sgmenu ul.menu li a:link,#sgmenu ul.menu li a:visited
 {
-	background:url(../images/but_l.jpg) no-repeat scroll left center transparent;
+	/*background:url(../images/but_l.jpg) no-repeat scroll left center transparent;*/
 	color:#FFF;
 	cursor:pointer;
 	display:block;
 	float:left;
 	/**font-family:Tahoma,Verdana,sans-serif;**/
 	font-family:"Century Gothic";
-	font-size:14px;
-	font-weight:700;
+	font-size:16px;
+	font-weight:bold;
 	height:31px;
 	line-height:31px;
 	margin:0;
-	padding:0 10px
+	padding:0,10px,0,10px;
 }
 
 #sgmenu ul.menu li a span:hover
 {
-	text-decoration:underline
+	/*text-decoration:underline;*/
+	background:#4F7E28;
 }
 
 #sgmenu ul.menu li a span
 {
-	background:url(../images/but_r.jpg) no-repeat scroll right center transparent;
+	/*background:url(../images/but_r.jpg) no-repeat scroll right center transparent;*/
 	float:left;
-	padding:0 15px 0 5px
+	padding:0 15px 0 15px;
 }
 
 .newshold
