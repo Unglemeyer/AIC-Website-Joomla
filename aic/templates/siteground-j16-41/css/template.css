@@ -121,7 +121,7 @@ header,nav,menu,section,aside,article,footer
 h1,h2,h3,h4,h5,h6
 {
 	margin:0 0 20px;
-	font-family:Century Gothic;
+	font-family: "Century Gothic";
 	color:#666;
 	line-height:normal;
 }
@@ -689,15 +689,17 @@ fieldset.userdata input.button
 	margin:0 0 10px
 }
 
-/* maincol */.maincol h2,.maincol h2 a,.maincol h3,.maincol h3 a,.maincol h4,.maincol h4 a
+/*maincol*/ .maincol h2,.maincol h2 a,.maincol h3,.maincol h3 a,.maincol h4,.maincol h4 a
 {
 	color:#929B43;
-	font-family:Tahoma,Verdana,Arial,sans-serif;
-	font-size:13px;
+	/*font-family:Tahoma,Verdana,Arial,sans-serif;*/
+	font-family: "Century Gothic";
+	font-size:20px;
 	font-weight:700;
 	padding:0;
 	text-align:left;
-	vertical-align:middle
+	vertical-align:middle;
+	margin-bottom:8px;
 }
 
 .maincol h3,.maincol h3 a
@@ -1304,13 +1306,14 @@ input.inputbox,textarea.inputbox
 }
 
 /**footer taken from old footer.css**/
-#footer{
-margin-left: auto;
-margin-right: auto;
-width:960px;
-height: 50px;
-background-color: #012b5d;
-color:white;
+#footer
+{
+	margin-left: auto;
+	margin-right: auto;
+	width:960px;
+	height: 50px;
+	background-color: #012b5d;
+	color:white;
 }
 
 #footer a
@@ -1323,16 +1326,19 @@ color:white;
 	text-decoration:underline;
 }
 
-#text{
-padding-left: 30px;
-padding-top: 18px;
-padding-right: 30px;
+#text
+{
+	padding-left: 30px;
+	padding-top: 18px;
+	padding-right: 30px;
 }
 
-#donate{
-float:right;
+#donate
+{
+	float:right;
 }
 
-#footer span{
-float:right;
+#footer span
+{
+	float:right;
 }
